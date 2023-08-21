@@ -10,23 +10,39 @@
 
     <style>
         .navbar{
-            background-color: rgb(176, 176, 176);
-            
+            background-color: black;
         }
 
-        .rodape{
-            background-color: rgb(0, 0, 0);
-            font-size: 30px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            text-align: center;
-            height: 300px;
-            box-shadow: 0px -10px 10px rgba(128, 126, 126, 0.8);
-            line-height: 300px;
-            margin-top: 25px;
-            border-radius: 5px;
-            color: rgb(240, 233, 233);
+        .roda{
+        margin-top: 25px;
+        height: 330px;
+        background-color: rgb(0, 0, 0);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        box-shadow: 0px -10px 10px rgba(128, 126, 126, 0.8);
         }
-            
+        .roda .down_up{
+            text-align: center;
+            color: rgb(240, 233, 233);
+            font-size: 4em;
+        }
+        .roda .down_meio{
+            text-align: center;
+            color: rgb(240, 233, 233);
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .roda .down_down{
+            text-align: center;
+        }
+        .roda .down_down img{
+            width: 40px;
+            border-radius: 25px;
+            border: 2px rgb(240, 233, 233) dotted;
+            cursor: pointer;
+            margin: 20px;
+            padding: 5px;
+        }
+
 
     </style>
 
@@ -36,8 +52,8 @@
     <nav class="navbar navbar-expand-lg navbar-light ">
         <!-- Just an image -->
         <nav class="navbar">
-        <a class="navbar-brand" href="#">
-            <img src="" width="30" height="30" alt="Logo">
+        <a class="" href="#">
+            <img src="Imagem/logo-taça00.png" width="80px" height="80px" alt="Logo">
         </a>
         </nav>
 
@@ -47,43 +63,64 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
-                </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+                    </li>
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME
-                    </a>
+                    <a class="nav-link " href="La-Martini_Home.html" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false" style="color: white">HOME</a>   
+                </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+                    </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white" >PRODUTOS</a>                    
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="">X-Tudo</a>
+                    <a class="dropdown-item" href="LM-Bebidas.html" >Bebidas</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="">X-Salada</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="">X-Burguer</a>
+                    <a class="dropdown-item" href="#">Petiscos</a>
                     </div>
                 </li>
+
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+                    </li>
+
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BEBIDAS
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Suco</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Refrigerante</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Água</a>
-                    </div>
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">CONHEÇA-NOS</a>   
                 </li>
+
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+                    </li>
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOBREMESAS
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Sorvete</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Pudim</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Brigadeirão</a>
-                    </div>
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">PEÇA JÁ</a>   
                 </li>
             </ul>
+
             <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -91,16 +128,15 @@
         </div>
     </nav>
 
+    <br>
+
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="" alt="First slide">
+                <img class="d-block w-100" src="coisas do projeto/carrossel/banner_2.png" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="" alt="Third slide">
+                <img class="d-block w-100" src="coisas do projeto/carrossel/banner_1.gif" alt="Second slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -111,34 +147,118 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
+    </div>    
+
 
     <div class="row m-3">
 
         <div class="card col-4 sm-col-12" style="width: 18rem;">
-            <img class="card-img-top" src="" alt="Card image cap">
+            <img class="card-img-top" src="Imagem/Card-Home01.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Red Fruits</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <!-- Botão para acionar modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                    Ingredientes
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contém:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Morango expremido</li>
+                                <li>Licor de frutas vermelhas</li>
+                                <li>Vodka</li>
+                                <li>Charope de mel</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="card col-4 sm-col-12" style="width: 18rem;">
-            <img class="card-img-top" src="" alt="Card image cap">
+            <img class="card-img-top" src="Imagem/Card-home02.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Tábua-G</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                
+                <!-- Botão para acionar modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo1">
+                    Ingredientes
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="modalExemplo1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contém:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                        Nesta linda tábua vem uma porção de petíscos, como vários tipos de queijo para acompanhar seus drinks e taças, salame, azeitonas, porções de carne, batatas e muitas outras opções para te satisfazer.  
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="card col-4 sm-col-12" style="width: 18rem;">
-            <img class="card-img-top" src="" alt="Card image cap">
+            <img class="card-img-top" src="Imagem/Card-home03.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Cítricos</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                
+                <!-- Botão para acionar modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo2">
+                    Ingredientes
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contém:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Limão expremido</li>
+                                <li>Suco de laranja</li>
+                                <li>Abacaxi batido</li>
+                                <li>Gim</li>
+                                <li>Fatias de laranja</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -163,9 +283,19 @@
         </div>
     </div>
     </div>
-    <div class="rodape">
-        LANCHONETE 
+
+    <div class="roda">
+        <br><br><br>
+        <div class="down_up">Drinkeria</div>
+        <div class="down_meio">Drinkeria feita para você!<br>#DrinkPraVocê</div>
+        <div class="down_down">
+            <a href="https://pt-br.facebook.com/" target="_blank"><img src="Imagem/face_logo.png"></a>
+            <a href="https://web.whatsapp.com" target="_blank"><img src="Imagem/whats_logo.png"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="Imagem/inst_logo.png"></a>
+        </div>
     </div>
+
+    
 
 </body>
 
